@@ -5,6 +5,7 @@ Credit card fraud is a major concern for both consumers and financial institutio
 
 ## Dataset
 The data used in this project is a CSV file containing credit card transaction data. The data has 31 columns and 284,807 rows. The "Class" column is the target variable, which indicates whether the transaction is legitimate (Class = 0) or fraudulent (Class = 1).
+
 Link to the dataset: (<https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud>)
 
 ## Preprocessing
@@ -29,6 +30,7 @@ ROC AUC Score: 0.736
 Accuracy Score: 0.966
 Balanced Accuracy Score: 0.686
 ROC AUC Score: 0.686
+```
 
 ## Streamlit Application:
 We use Streamlit to create a user interface for the credit card fraud detection project. The Streamlit application allows the user to upload a CSV file containing credit card transaction data, and the uploaded data is used to train the logistic regression model. The user can also input transaction features and get a prediction on whether the transaction is legitimate or fraudulent.
